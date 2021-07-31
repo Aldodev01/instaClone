@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+
+.app{
+  background-color: #fafafa;
+}
+
+.app_header{
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+.appHeaderText{
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.app_headerImage{
+  object-fit: contain;
+  width: 40px;
+}
+
+.appSignUp{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.logoLogin{
+  width: 70px;
+}
+
+.appPosts{
+  padding: 20px;
+}
